@@ -65,7 +65,7 @@ Key insights:
 4. No need extra parameters to represent forget gate like GLA/Mamba.
 
 ## Standalone code
-See [hgru2-pytorch](https://github.com/Doraemonzzz/hgru2-pytorch).
+See [hgru2-pytorch](https://github.com/Doraemonzzz/hgru2-pytorch). In order to reproduce the experimental results, please use the reproduce branch!
 
 
 ## Experiments

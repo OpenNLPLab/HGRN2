@@ -66,7 +66,7 @@ Key insights:
 
 ## Standalone code
 See [hgru2-pytorch](https://github.com/Doraemonzzz/hgru2-pytorch). In order to reproduce the experimental results, please use the reproduce branch!
-
+The other implementations come from [fla](https://github.com/sustcsonglin/flash-linear-attention/tree/main/fla/models/hgrn2), thanks for [yzhangcs](https://github.com/yzhangcs)'s implementation.
 
 ## Experiments
 

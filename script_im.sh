@@ -24,8 +24,7 @@ RESUME=./checkpoints/$4/checkpoint_best.pth
 mkdir -p logs
 START_TIME=`date +%Y%m%d-%H:%M:%S`
 
-torchrun 
-$PROG \
+torchrun --standalone --nproc_per_node=$GPUS $PROG \
     --data-set $DATASET --data-path $DATA \
     --batch-size $batch_size --dist-eval --output_dir $OUTPUT_DIR \
     --resume $RESUME --model $ARCH --epochs 300 --lr $LR \

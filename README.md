@@ -100,7 +100,7 @@ conda env create --file im.yaml
 
 Then, install `hgru-pytorch`:
 ```
-conda activate lra
+conda activate im
 git clone https://github.com/Doraemonzzz/hgru2-pytorch
 cd hgru2-pytorch
 pip install .

@@ -1,6 +1,8 @@
 
 # HGRN2
 
+**20240820 Update**: HGRN2 has been accepted by COLM 2024.
+
 Official implementation of `HGRN2: Gated Linear RNNs with State Expansion`. This repo does not contain specific codes, but only scripts and some instructions on how to reproduce the results of the paper. The overall directory is as follows:
 
 - [HGRN2](#hgrn2)
@@ -22,6 +24,7 @@ Official implementation of `HGRN2: Gated Linear RNNs with State Expansion`. This
       - [1) Preparation](#1-preparation)
       - [2) Training](#2-training)
     - [Mqar](#mqar)
+  - [Citation](#citation)
 
 
 
@@ -218,5 +221,15 @@ bash script_mqar.sh
 ```
 
 
+## Citation
 
+If you find our repository or paper valuable, please cite it using the following BibTeX.
 
+```
+@misc{2404.07904,
+Author = {Zhen Qin and Songlin Yang and Weixuan Sun and Xuyang Shen and Dong Li and Weigao Sun and Yiran Zhong},
+Title = {HGRN2: Gated Linear RNNs with State Expansion},
+Year = {2024},
+Eprint = {arXiv:2404.07904},
+}
+```
